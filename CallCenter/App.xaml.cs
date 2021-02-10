@@ -13,5 +13,15 @@ namespace CallCenter
     /// </summary>
     public partial class App : Application
     {
+        //private MainWindow Window { get; set; }
+        //public MainViewModel MainViewModel { get; set; }
+
+        protected override void OnStartup(StartupEventArgs e)
+        {
+            //base.OnStartup(e);
+            //MainViewModel = new MainViewModel();
+            //Window = new MainWindow { DataContext = MainViewModel };
+            //Window.Show();
+        }
     }
 }
